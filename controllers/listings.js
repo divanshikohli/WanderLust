@@ -19,7 +19,7 @@ module.exports.index = async (req, res) => {
         query.category = category;
     }
 
-    const allListings = await Listing.find(query);
+    const allListings = await Listing.find(query).lean();
 
     res.render("listings/index.ejs", {
         allListings,
@@ -43,7 +43,8 @@ module.exports.showListing = async (req, res) => {
                 path: "author",
             },
         })
-        .populate("owner");
+        .populate("owner"),
+        .lean();
     if (!listing) {
         req.flash("error", "Listing you requested does not exist!");
         return res.redirect("/listings");

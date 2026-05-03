@@ -10,7 +10,7 @@
             <img src="<%= listing.image.url %>" class="card-img-top show-img" alt="listing_img">
             <div class="card-body">
                 <p class="card-text mt-3"> Owned by <i>
-                        <%= listing.owner.username %>
+                        <%= listing.owner ? listing.owner.username : "Admin" %>
                     </i> </p>
                 <p class="card-text mt-3">
                     <%= listing.description %>
@@ -110,5 +110,5 @@
                 </div>
 
     </div>
-    
+
     <script src="/js/map.js"></script>
