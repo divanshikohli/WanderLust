@@ -252,20 +252,6 @@ const sampleListings = [
   },
 
   {
-    title: "Art Deco Apartment in Miami",
-    description:
-      "Stylish Art Deco apartment in South Beach.",
-    image: {
-      filename: "listingimage",
-      url: "https://unsplash.com/photos/black-and-white-cocnrete-building-low-angle-photography-koH7IVuwRLw"
-    },
-    price: 1600,
-    location: "Miami",
-    country: "United States",
-    category: "Rooms",
-  },
-
-  {
     title: "Desert Oasis in Dubai",
     description:
       "Experience luxury in the middle of the desert.",
