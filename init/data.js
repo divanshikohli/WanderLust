@@ -257,7 +257,7 @@ const sampleListings = [
       "Stylish Art Deco apartment in South Beach.",
     image: {
       filename: "listingimage",
-      url: "https://images.unsplash.com/photo-1670963964797-942df1804579?auto=format&fit=crop&w=800&q=60"
+      url: "https://unsplash.com/photos/black-and-white-cocnrete-building-low-angle-photography-koH7IVuwRLw"
     },
     price: 1600,
     location: "Miami",
