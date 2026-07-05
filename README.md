@@ -1,120 +1,131 @@
-# Wanderlust – Airbnb Clone
+# Wanderlust
 
-A full-stack accommodation booking platform inspired by Airbnb, built using the **MERN Stack**. The application allows users to explore, create, edit, and manage property listings through a clean and responsive interface.
-
-
-# Features
-
-* User-friendly and responsive interface
-* Create, Read, Update, and Delete (CRUD) property listings
-* Secure backend with RESTful APIs
-* MongoDB database integration
-* Server-side validation
-* Responsive design for desktop and mobile devices
-* Git & GitHub version control
+A full-stack accommodation listing platform inspired by Airbnb, built using the MERN ecosystem. The application enables users to explore listings, create and manage properties, upload images, leave reviews, and securely authenticate their accounts.
 
 
-# Tech Stack
 
-## Frontend
+## Live Demo
+
+**https://majorproject-ao6q.onrender.com/listings**
+
+
+
+## Features
+
+* User Authentication & Authorization
+* Create, Edit & Delete Listings
+* Property Image Uploads using Cloudinary
+* Reviews & Ratings
+* Interactive Maps with Mapbox
+* Server-side Validation using Joi
+* Responsive User Interface
+* Flash Messages & Error Handling
+* RESTful Routing
+* MVC Architecture
+
+---
+
+## Tech Stack
+
+### Frontend
 
 * HTML
 * CSS
-* JavaScript
+* Bootstrap
+* EJS
 
-## Backend
+### Backend
 
 * Node.js
 * Express.js
 
-## Database
+### Database
 
 * MongoDB
 * Mongoose
 
-## Tools
+### Authentication
+
+* Passport.js
+* Express Session
+
+### Cloud Services
+
+* Cloudinary
+* Multer
+
+### Maps
+
+* Mapbox
+
+### Validation
+
+* Joi
+
+### Version Control
 
 * Git
 * GitHub
 
 
 
-#  Project Structure
+## Installation
 
-```
-wanderlust/
-│
-├── models/
-├── routes/
-├── controllers/
-├── views/
-├── public/
-├── app.js
-├── package.json
-└── README.md
-```
-
-
-
-# Installation
-
-## Clone the repository
+Clone the repository
 
 ```bash
-git clone https://github.com/divanshiiii/wanderlust.git
+git clone https://github.com/divanshiiii/<repository-name>.git
 ```
 
-## Navigate to the project directory
-
-```bash
-cd wanderlust
-```
-
-## Install dependencies
+Install dependencies
 
 ```bash
 npm install
 ```
 
-## Configure environment variables
+Create a `.env` file and configure the following environment variables:
 
-Create a `.env` file and add the required environment variables.
+* MONGO_URL
+* CLOUDINARY_CLOUD_NAME
+* CLOUDINARY_KEY
+* CLOUDINARY_SECRET
+* MAP_TOKEN
+* SECRET
 
-Example:
-
-```env
-MONGO_URI=your_mongodb_connection_string
-PORT=3000
-```
-
-## Run the application
+Run the application
 
 ```bash
 npm start
 ```
 
-Visit:
-
-```
-http://localhost:3000
-```
 
 
+## Project Highlights
 
-# Future Improvements
-
-* Booking System
-* Wishlist Feature
-* Payment Integration
-* Search & Filters
+* Full-stack web application following MVC architecture.
+* Secure authentication and authorization.
+* Cloud-based image storage.
+* Interactive location mapping.
+* Responsive and user-friendly design.
+* Deployed on Render.
 
 
 
-# Author
+## Future Improvements
+
+* Booking functionality
+* Payment Gateway Integration
+* Wishlist / Favorites
+* Advanced Search & Filters
+* Availability Calendar
+* Email Notifications
+
+
+
+## Author
 
 **Divanshi Kohli**
 
-* GitHub: https://github.com/divanshiiii
-* LinkedIn: https://www.linkedin.com/in/divanshi-kohli-70822737b/
+GitHub: https://github.com/divanshiiii
 
-  
+LinkedIn: https://www.linkedin.com/in/divanshi-kohli-70822737b/
