@@ -126,6 +126,6 @@ npm start
 
 **Divanshi Kohli**
 
-GitHub: https://github.com/divanshiiii
+GitHub: https://github.com/divanshikohli
 
 LinkedIn: https://www.linkedin.com/in/divanshi-kohli-70822737b/
